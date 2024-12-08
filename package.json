@@ -1,0 +1,14 @@
+{
+  "name": "test_bench_parcel",
+  "source": "src/index.html",
+  "browserslist": "cover 100%",
+  "packageManager": "yarn@4.5.3",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/core": "^2.13.2",
+    "parcel": "^2.13.2"
+  }
+}
