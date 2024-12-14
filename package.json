@@ -10,5 +10,9 @@
   "devDependencies": {
     "@parcel/core": "^2.13.2",
     "parcel": "^2.13.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

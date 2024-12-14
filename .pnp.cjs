@@ -28,7 +28,9 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@parcel/core", "npm:2.13.2"],\
-          ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"]\
+          ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2879,6 +2881,38 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react", [\
+      ["npm:19.0.0", {\
+        "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/react-npm-19.0.0-e33c9aa1c0-10c0.zip/node_modules/react/",\
+        "packageDependencies": [\
+          ["react", "npm:19.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-dom", [\
+      ["npm:19.0.0", {\
+        "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/react-dom-npm-19.0.0-b7981c573e-10c0.zip/node_modules/react-dom/",\
+        "packageDependencies": [\
+          ["react-dom", "npm:19.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-235852a019/4/Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/react-dom-npm-19.0.0-b7981c573e-10c0.zip/node_modules/react-dom/",\
+        "packageDependencies": [\
+          ["react-dom", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0"],\
+          ["@types/react", null],\
+          ["react", "npm:19.0.0"],\
+          ["scheduler", "npm:0.25.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-error-overlay", [\
       ["npm:6.0.9", {\
         "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/react-error-overlay-npm-6.0.9-96e7e1e53a-10c0.zip/node_modules/react-error-overlay/",\
@@ -2948,6 +2982,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["scheduler", [\
+      ["npm:0.25.0", {\
+        "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/scheduler-npm-0.25.0-f89e6cad04-10c0.zip/node_modules/scheduler/",\
+        "packageDependencies": [\
+          ["scheduler", "npm:0.25.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3129,7 +3172,9 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["test_bench_parcel", "workspace:."],\
           ["@parcel/core", "npm:2.13.2"],\
-          ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"]\
+          ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
