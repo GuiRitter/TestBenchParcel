@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@parcel/core", "npm:2.13.2"],\
           ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"],\
+          ["process", "npm:0.11.10"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0"]\
         ],\
@@ -2870,6 +2871,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["process", [\
+      ["npm:0.11.10", {\
+        "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/process-npm-0.11.10-aeb3b641ae-10c0.zip/node_modules/process/",\
+        "packageDependencies": [\
+          ["process", "npm:0.11.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["promise-retry", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../../Users/GuilhermeAlanRitter/AppData/Local/Yarn/Berry/cache/promise-retry-npm-2.0.1-871f0b01b7-10c0.zip/node_modules/promise-retry/",\
@@ -3173,6 +3183,7 @@ const RAW_RUNTIME_STATE =
           ["test_bench_parcel", "workspace:."],\
           ["@parcel/core", "npm:2.13.2"],\
           ["parcel", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:2.13.2"],\
+          ["process", "npm:0.11.10"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:e32a8561cfbf3b4bc82561cdff44fe0060745d17f8b21d36bc85bb9f6c79db2bcd8e8b50c50ee4b25632e14f2eda6cf6b80ebaac217ad7ff6632f7b7d45a472d#npm:19.0.0"]\
         ],\
